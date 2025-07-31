@@ -1,18 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-class Program
+namespace _24SOECE13009_Dhiraj_PT
 {
-    static void Main()
+    internal class third
     {
-        int rows = 5; // Total number of rows
-
-        for (int i = rows; i >= 1; i--)
+        static void Main(string[] args)
         {
-            for (int j = 1; j <= i; j++)
-            {
-                Console.Write("*");
-            }
-            Console.WriteLine(); // Move to next line after each row
+            int a = 5;
+            int b = 5;
+            int res = ++a + b++ + b++ + a++ + ++a + ++b + a++; //++a = increase 1, a++ first tej value rakhvi ane pachi 1 increase karvu
+            Console.WriteLine(res);//47
         }
     }
 }

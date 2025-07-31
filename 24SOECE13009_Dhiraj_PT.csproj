@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fourth.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Second.cs" />
+    <Compile Include="check_uncheck.cs" />
+    <Compile Include="comment.cs" />
+    <Compile Include="first.cs" />
+    <Compile Include="method.cs" />
+    <Compile Include="MethodOverloading.cs" />
+    <Compile Include="number.cs" />
+    <Compile Include="Outdemo.cs" />
+    <Compile Include="Swapmethod.cs" />
+    <Compile Include="table.cs" />
     <Compile Include="third.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="second.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

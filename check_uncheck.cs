@@ -6,18 +6,14 @@ using System.Threading.Tasks;
 
 namespace _24SOECE13009_Dhiraj_PT
 {
-    internal class second
+    internal class check_uncheck
     {
         static void Main(string[] args)
         {
-            int a = 5;
-            int b = 5;
-            int res = a++ + b++ + b++ + a++; //14 
-            res = a + b;
-            a = a + 1;
-            b = b + 1;
+            a= 127;
+            b= 127;
 
-            Console.WriteLine(res);
+
         }
     }
 }
