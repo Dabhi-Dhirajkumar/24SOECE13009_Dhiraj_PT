@@ -37,7 +37,6 @@ namespace _24SOECE13009_Dhiraj_PT
 
                 this.city = city;
                 Console.WriteLine("Employee ID: {0}, Name: {1}, City: {2}", empid, empname, city);
-            }
         } 
     }
 }
